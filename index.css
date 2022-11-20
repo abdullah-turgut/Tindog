@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -52,6 +52,20 @@ body {
 .profile {
   position: relative;
   margin: 0 0.8rem;
+}
+
+.badge {
+  display: block;
+  height: 10rem;
+  position: absolute;
+  top: 3rem;
+  margin: 2rem;
+  transform: rotate(-30deg);
+  transition: all 0.5s;
+}
+
+.hidden {
+  opacity: 0;
 }
 
 .profile-image {
