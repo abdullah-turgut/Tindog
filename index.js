@@ -16,7 +16,7 @@ function toggleLikeBadge(index) {
   let img = document.querySelector('.badge');
   dogsArray[index].hasBeenLiked = true;
   dogsArray[index].hasBeenSwiped = false;
-  img.setAttribute('src', 'images/badge-like.png');
+  img.setAttribute('src', './images/badge-like.png');
   img.classList.remove('hidden');
 }
 
@@ -24,7 +24,7 @@ function toggleNopeBadge(index) {
   let img = document.querySelector('.badge');
   dogsArray[index].hasBeenLiked = false;
   dogsArray[index].hasBeenSwiped = true;
-  img.setAttribute('src', 'images/badge-nope.png');
+  img.setAttribute('src', './images/badge-nope.png');
   img.classList.remove('hidden');
 }
 
