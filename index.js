@@ -7,7 +7,6 @@ const btnLike = document.querySelector('#btn-like');
 const profile = document.querySelector('.profile');
 
 const dogsArray = dogs.map((dog) => new Dog(dog));
-console.log(dogsArray);
 
 function renderHtml(index) {
   profile.innerHTML = dogsArray[index].createHtml();
